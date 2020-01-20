@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "cwd": "${fileDirname}",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "windows": {
+                "miDebuggerPath": "C:\\MinGW\\mingw64\\bin\\gdb.exe",
+                "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            },
+            "externalConsole": true,
+            "stopAtEntry": false,
+            "setupCommands": [
+                {
+                    "description": "Enable Pretty Printing for GDB",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "make"
+        }
+    ]
+}
