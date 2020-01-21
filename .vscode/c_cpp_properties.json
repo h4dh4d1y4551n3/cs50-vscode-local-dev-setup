@@ -3,8 +3,7 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}",
-                "${workspaceFolder}\\include",
+                "${workspaceFolder}/include",
                 "C:/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include"
             ],
             "defines": [
