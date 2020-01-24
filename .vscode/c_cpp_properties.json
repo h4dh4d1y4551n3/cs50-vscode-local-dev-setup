@@ -18,7 +18,8 @@
                     "${workspaceFolder}"
                 ],
                 "limitSymbolsToIncludedHeaders": true
-            }
+            },
+            "cStandard": "c11"
         },
         {
             "name": "Linux",

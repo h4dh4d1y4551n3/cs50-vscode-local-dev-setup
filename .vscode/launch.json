@@ -12,10 +12,10 @@
             "MIMode": "gdb",
             "miDebuggerPath": "/usr/bin/gdb",
             "cwd": "${fileDirname}",
-            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "program": "${fileDirname}/bin/${fileBasenameNoExtension}",
             "windows": {
                 "miDebuggerPath": "C:\\MinGW\\mingw64\\bin\\gdb.exe",
-                "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "program": "${fileDirname}\\bin\\${fileBasenameNoExtension}.exe",
             },
             "externalConsole": true,
             "stopAtEntry": false,

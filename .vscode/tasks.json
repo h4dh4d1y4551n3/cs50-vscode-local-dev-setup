@@ -23,7 +23,7 @@
                 "-lprompt",
                 "-lm",                
                 "-o",
-                "${fileBasenameNoExtension}"
+                "bin/${fileBasenameNoExtension}"
             ],
             "windows": {
                 "args": [
@@ -38,7 +38,7 @@
                     "-lprompt",
                     "-lm",
                     "-o",
-                    "${fileBasenameNoExtension}.exe"
+                    "bin/${fileBasenameNoExtension}.exe"
                 ]
             },
             "problemMatcher": [
