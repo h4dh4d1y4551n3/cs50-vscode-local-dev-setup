@@ -1,10 +1,16 @@
 /**
- * CS50 Library for C
+ * CS50 Library for C 
  * https://github.com/cs50/libcs50
  *
- * Based on Eric Roberts' genlib.c and simpio.c.
+ * Renamed and readapted by Yassine HADHADI as prompt.c for cross-platform
+ * and personal use outside the CS50 IDE and the CS50 curriculum in generale.
+ * * Changed all function signature from get_<type> to prompt<type_initial>.
+ * * Changed the get_long function newly named promptll from returning a long
+ *   type to returning a long long type as adaptation for windows 64bit systems
+ * 
+ * Based on Eric Roberts genlib.c and simpio.c.
  *
- * Copyright (c) 2019
+ * Copyright (c) 2020
  * All rights reserved
  *
  * BSD 3-Clause License
