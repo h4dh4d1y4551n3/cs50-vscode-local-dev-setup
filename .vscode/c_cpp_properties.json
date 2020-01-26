@@ -3,15 +3,14 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/include",
-                "C:/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include"
+                "${workspaceFolder}\\include"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "C:/MinGW/mingw64/bin/gcc.exe",
+            "compilerPath": "C:\\MinGW\\mingw64\\bin\\gcc.exe",
             "intelliSenseMode": "gcc-x64",
             "browse": {
                 "path": [
@@ -24,7 +23,6 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}",
                 "${workspaceFolder}/include"
             ],
             "defines": [
@@ -44,7 +42,6 @@
         {
             "name": "Mac",
             "includePath": [
-                "${workspaceFolder}",
                 "${workspaceFolder}/include"
             ],
             "defines": [
