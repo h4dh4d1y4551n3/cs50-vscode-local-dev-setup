@@ -1,0 +1,264 @@
+#
+# Common file settings 
+#
+
+# Auto detect text files for LF normalization, and leave all files detected
+# detected as binary untouched. This will handle all files not found below
+* text=auto
+
+# Document files
+*.doc	     diff=astextplain
+*.DOC	     diff=astextplain
+*.docx       diff=astextplain
+*.DOCX       diff=astextplain
+*.dot        diff=astextplain
+*.DOT        diff=astextplain
+*.pdf        diff=astextplain
+*.PDF	     diff=astextplain
+*.rtf	     diff=astextplain
+*.RTF	     diff=astextplain
+*.adoc       text
+*.textile    text
+*.csv        text
+*.tab        text
+*.tsv        text
+*.markdown   text
+*.md         text
+*.mdwn       text
+*.mdown      text
+*.mkd        text
+*.mkdn       text
+*.mdtxt      text
+*.mdtext     text
+*.txt        text
+AUTHORS      text
+CHANGELOG    text
+CHANGES      text
+CONTRIBUTING text
+COPYING      text
+copyright    text
+*COPYRIGHT*  text
+INSTALL      text
+license      text
+LICENSE      text
+NEWS         text
+readme       text
+*README*     text
+TODO         text
+
+# Graphics files
+*.ai   binary
+*.bmp  binary
+*.eps  binary
+*.gif  binary
+*.ico  binary
+*.jng  binary
+*.jp2  binary
+*.jpg  binary
+*.jpeg binary
+*.jpx  binary
+*.jxr  binary
+*.png  binary
+*.psb  binary
+*.psd  binary
+*.svg  text
+*.svgz binary
+*.tif  binary
+*.tiff binary
+*.wbmp binary
+*.webp binary
+
+# Archive files
+*.7z  binary
+*.gz  binary
+*.jar binary
+*.rar binary
+*.tar binary
+*.zip binary
+
+# Script files
+*.sh  text eol=lf
+*.bat text eol=crlf
+
+# Configuration files
+*.bowerrc       text
+*.cnf           text
+*.conf          text
+*.config        text
+.browserslistrc text
+browserslist    text
+.editorconfig   text
+.gitconfig      text
+.gitignore      text
+.gitattributes  text
+.htaccess       text
+*.npmignore     text
+*.yaml          text
+*.yml           text
+Dockerfile      text
+*.dockerignore  text
+Procfile        text
+.slugignore     text
+
+
+#
+# C/C++ development specific files settings
+#
+
+# Source files
+*.c   text
+*.cc  text
+*.cxx text
+*.cpp text
+*.c++ text
+*.hpp text
+*.h   text
+*.h++ text
+*.hh  text
+
+# Build files
+Makefile text
+makefile text
+
+# Compiled Object files
+*.slo binary
+*.lo  binary
+*.o   binary
+*.obj binary
+
+# Precompiled Header files
+*.gch binary
+*.pch binary
+
+# Compiled Static Shared librarie files
+*.lai binary
+*.la  binary
+*.a   binary
+*.lib binary
+
+# Compiled Dynamic Shared librarie files
+*.so    binary
+*.dylib binary
+*.dll   binary
+
+# Executable files
+*.exe binary
+*.out binary
+*.app binary
+
+
+#
+# Python development specific files settings
+#
+
+# Sources files
+*.pxd   text
+*.py    text
+*.py3   text
+*.pyw   text
+*.pyx   text
+*.pyz   text
+*.ipynb text
+
+# Binary files
+*.db  binary
+*.p   binary
+*.pkl binary
+*.pyc binary
+*.pyd binary
+*.pyo binary
+
+
+#
+# Web development specific files settings
+#
+
+# Source files
+*.coffee     text
+*.css        text
+*.htm        text
+*.html       text
+*.inc        text
+*.ini        text
+*.js         text
+*.json       text
+*.jsx        text
+*.less       text
+*.od         text
+*.onlydata   text
+*.php        text
+*.pl         text
+*.rb         text
+*.sass       text
+*.scm        text
+*.scss       text
+*.sql        text
+*.styl       text
+*.tag        text
+*.ts         text
+*.tsx        text
+*.xml        text
+*.xhtml      text
+*.dot        text
+*.ejs        text
+*.haml       text
+*.handlebars text
+*.hbs        text
+*.hbt        text
+*.jade       text
+*.latte      text
+*.mustache   text
+*.njk        text
+*.phtml      text
+*.tmpl       text
+*.tpl        text
+*.twig       text
+*.vue        text
+
+# Linters configuration files
+.csslintrc      text
+.eslintrc       text
+.htmlhintrc     text
+.jscsrc         text
+.jshintrc       text
+.jshintignore   text
+.stylelintrc    text
+
+#
+# Web media specific files settings
+#
+
+# Web font files
+*.ttf   binary
+*.eot   binary
+*.otf   binary
+*.woff  binary
+*.woff2 binary
+
+# Web audio files
+*.kar  binary
+*.m4a  binary
+*.mid  binary
+*.midi binary
+*.mp3  binary
+*.ogg  binary
+*.ra   binary
+
+# Web video files
+*.3gpp binary
+*.3gp  binary
+*.as   binary
+*.asf  binary
+*.asx  binary
+*.fla  binary
+*.flv  binary
+*.m4v  binary
+*.mng  binary
+*.mov  binary
+*.mp4  binary
+*.mpeg binary
+*.mpg  binary
+*.ogv  binary
+*.swc  binary
+*.swf  binary
+*.webm binary
